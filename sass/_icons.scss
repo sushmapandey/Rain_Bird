@@ -1,0 +1,834 @@
+@font-face {
+  font-family: 'rainbird';
+  src:  url('fonts/rainbird.eot?29om7k');
+  src:  url('fonts/rainbird.eot?29om7k#iefix') format('embedded-opentype'),
+    url('fonts/rainbird.ttf?29om7k') format('truetype'),
+    url('fonts/rainbird.woff?29om7k') format('woff'),
+    url('fonts/rainbird.svg?29om7k#rainbird') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rainbird' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Badminton-Racket:before {
+  content: "\e900";
+  color: #22739b;
+}
+.icon-Bow--arrow:before {
+  content: "\e901";
+  color: #22739b;
+}
+.icon-boy-and-girl:before {
+  content: "\e902";
+  color: #22739b;
+}
+.icon-call:before {
+  content: "\e903";
+  color: #fba62e;
+}
+.icon-Campfire:before {
+  content: "\e904";
+  color: #22739b;
+}
+.icon-car-parking:before {
+  content: "\e905";
+  color: #22739b;
+}
+.icon-carrom-board:before {
+  content: "\e906";
+  color: #22739b;
+}
+.icon-Chess:before {
+  content: "\e907";
+  color: #22739b;
+}
+.icon-cloche-food-cover:before {
+  content: "\e908";
+  color: #22739b;
+}
+.icon-coffee-beans:before {
+  content: "\e909";
+  color: #22739b;
+}
+.icon-cooking:before {
+  content: "\e90a";
+  color: #22739b;
+}
+.icon-Cricket:before {
+  content: "\e90b";
+  color: #22739b;
+}
+.icon-darts:before {
+  content: "\e90c";
+  color: #22739b;
+}
+.icon-facebook:before {
+  content: "\e90d";
+  color: #22739b;
+}
+.icon-Hiking:before {
+  content: "\e90e";
+  color: #22739b;
+}
+.icon-instagram:before {
+  content: "\e90f";
+  color: #22739b;
+}
+.icon-kids-friendly:before {
+  content: "\e910";
+  color: #22739b;
+}
+.icon-land:before {
+  content: "\e911";
+  color: #22739b;
+}
+.icon-message:before {
+  content: "\e912";
+  color: #fba62e;
+}
+.icon-nature:before {
+  content: "\e913";
+  color: #22739b;
+}
+.icon-noun_Bow--arrow:before {
+  content: "\e914";
+  color: #22739b;
+}
+.icon-noun_carrom-board:before {
+  content: "\e915";
+  color: #22739b;
+}
+.icon-noun_Chess:before {
+  content: "\e916";
+  color: #22739b;
+}
+.icon-noun_cooking_994351:before {
+  content: "\e917";
+  color: #22739b;
+}
+.icon-noun_land:before {
+  content: "\e918";
+  color: #22739b;
+}
+.icon-noun_Waterfall:before {
+  content: "\e919";
+  color: #22739b;
+}
+.icon-Path-475:before {
+  content: "\e91a";
+  color: #22739b;
+}
+.icon-rainbird-homestay-footerlogo .path1:before {
+  content: "\e91b";
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-footerlogo .path2:before {
+  content: "\e91c";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-footerlogo .path3:before {
+  content: "\e91d";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-footerlogo .path4:before {
+  content: "\e91e";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-footerlogo .path5:before {
+  content: "\e91f";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-footerlogo .path6:before {
+  content: "\e920";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-footerlogo .path7:before {
+  content: "\e921";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-footerlogo .path8:before {
+  content: "\e922";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-footerlogo .path9:before {
+  content: "\e923";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-footerlogo .path10:before {
+  content: "\e924";
+  margin-left: -2.26171875em;
+  color: rgb(244, 244, 244);
+}
+.icon-rainbird-homestay-footerlogo .path11:before {
+  content: "\e925";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path12:before {
+  content: "\e926";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path13:before {
+  content: "\e927";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path14:before {
+  content: "\e928";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path15:before {
+  content: "\e929";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path16:before {
+  content: "\e92a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path17:before {
+  content: "\e92b";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path18:before {
+  content: "\e92c";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path19:before {
+  content: "\e92d";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path20:before {
+  content: "\e92e";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path21:before {
+  content: "\e92f";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path22:before {
+  content: "\e930";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path23:before {
+  content: "\e931";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path24:before {
+  content: "\e932";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path25:before {
+  content: "\e933";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path26:before {
+  content: "\e934";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path27:before {
+  content: "\e935";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path28:before {
+  content: "\e936";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path29:before {
+  content: "\e937";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path30:before {
+  content: "\e938";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path31:before {
+  content: "\e939";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path32:before {
+  content: "\e93a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path33:before {
+  content: "\e93b";
+  margin-left: -2.26171875em;
+  color: rgb(21, 24, 31);
+}
+.icon-rainbird-homestay-footerlogo .path34:before {
+  content: "\e93c";
+  margin-left: -2.26171875em;
+  color: rgb(21, 24, 31);
+}
+.icon-rainbird-homestay-footerlogo .path35:before {
+  content: "\e93d";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-footerlogo .path36:before {
+  content: "\e93e";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path37:before {
+  content: "\e93f";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path38:before {
+  content: "\e940";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path39:before {
+  content: "\e941";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path40:before {
+  content: "\e942";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path41:before {
+  content: "\e943";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path42:before {
+  content: "\e944";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path43:before {
+  content: "\e945";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path44:before {
+  content: "\e946";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path45:before {
+  content: "\e947";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path46:before {
+  content: "\e948";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path47:before {
+  content: "\e949";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path48:before {
+  content: "\e94a";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path49:before {
+  content: "\e94b";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path50:before {
+  content: "\e94c";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path51:before {
+  content: "\e94d";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path52:before {
+  content: "\e94e";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path53:before {
+  content: "\e94f";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path54:before {
+  content: "\e950";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-footerlogo .path55:before {
+  content: "\e951";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-footerlogo .path56:before {
+  content: "\e952";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-footerlogo .path57:before {
+  content: "\e953";
+  margin-left: -2.26171875em;
+  color: rgb(139, 200, 237);
+}
+.icon-rainbird-homestay-footerlogo .path58:before {
+  content: "\e954";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path59:before {
+  content: "\e955";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path60:before {
+  content: "\e956";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path61:before {
+  content: "\e957";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path62:before {
+  content: "\e958";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path63:before {
+  content: "\e959";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path64:before {
+  content: "\e95a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path65:before {
+  content: "\e95b";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path66:before {
+  content: "\e95c";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-footerlogo .path67:before {
+  content: "\e95d";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path1:before {
+  content: "\e95e";
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-logo .path2:before {
+  content: "\e95f";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-logo .path3:before {
+  content: "\e960";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-logo .path4:before {
+  content: "\e961";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-logo .path5:before {
+  content: "\e962";
+  margin-left: -2.26171875em;
+  color: rgb(255, 205, 5);
+}
+.icon-rainbird-homestay-logo .path6:before {
+  content: "\e963";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-logo .path7:before {
+  content: "\e964";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-logo .path8:before {
+  content: "\e965";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-logo .path9:before {
+  content: "\e966";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-logo .path10:before {
+  content: "\e967";
+  margin-left: -2.26171875em;
+  color: rgb(244, 244, 244);
+}
+.icon-rainbird-homestay-logo .path11:before {
+  content: "\e968";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path12:before {
+  content: "\e969";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path13:before {
+  content: "\e96a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path14:before {
+  content: "\e96b";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path15:before {
+  content: "\e96c";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path16:before {
+  content: "\e96d";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path17:before {
+  content: "\e96e";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path18:before {
+  content: "\e96f";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path19:before {
+  content: "\e970";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path20:before {
+  content: "\e971";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path21:before {
+  content: "\e972";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path22:before {
+  content: "\e973";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path23:before {
+  content: "\e974";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path24:before {
+  content: "\e975";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path25:before {
+  content: "\e976";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path26:before {
+  content: "\e977";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path27:before {
+  content: "\e978";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path28:before {
+  content: "\e979";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path29:before {
+  content: "\e97a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path30:before {
+  content: "\e97b";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path31:before {
+  content: "\e97c";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path32:before {
+  content: "\e97d";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path33:before {
+  content: "\e97e";
+  margin-left: -2.26171875em;
+  color: rgb(21, 24, 31);
+}
+.icon-rainbird-homestay-logo .path34:before {
+  content: "\e97f";
+  margin-left: -2.26171875em;
+  color: rgb(21, 24, 31);
+}
+.icon-rainbird-homestay-logo .path35:before {
+  content: "\e980";
+  margin-left: -2.26171875em;
+  color: rgb(0, 0, 0);
+}
+.icon-rainbird-homestay-logo .path36:before {
+  content: "\e981";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path37:before {
+  content: "\e982";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path38:before {
+  content: "\e983";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path39:before {
+  content: "\e984";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path40:before {
+  content: "\e985";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path41:before {
+  content: "\e986";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path42:before {
+  content: "\e987";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path43:before {
+  content: "\e988";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path44:before {
+  content: "\e989";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path45:before {
+  content: "\e98a";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path46:before {
+  content: "\e98b";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path47:before {
+  content: "\e98c";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path48:before {
+  content: "\e98d";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path49:before {
+  content: "\e98e";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path50:before {
+  content: "\e98f";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path51:before {
+  content: "\e990";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path52:before {
+  content: "\e991";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path53:before {
+  content: "\e992";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path54:before {
+  content: "\e993";
+  margin-left: -2.26171875em;
+  color: rgb(34, 115, 155);
+}
+.icon-rainbird-homestay-logo .path55:before {
+  content: "\e994";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-logo .path56:before {
+  content: "\e995";
+  margin-left: -2.26171875em;
+  color: rgb(35, 47, 58);
+}
+.icon-rainbird-homestay-logo .path57:before {
+  content: "\e996";
+  margin-left: -2.26171875em;
+  color: rgb(139, 200, 237);
+}
+.icon-rainbird-homestay-logo .path58:before {
+  content: "\e997";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path59:before {
+  content: "\e998";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path60:before {
+  content: "\e999";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path61:before {
+  content: "\e99a";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path62:before {
+  content: "\e99b";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path63:before {
+  content: "\e99c";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path64:before {
+  content: "\e99d";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path65:before {
+  content: "\e99e";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path66:before {
+  content: "\e99f";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-rainbird-homestay-logo .path67:before {
+  content: "\e9a0";
+  margin-left: -2.26171875em;
+  color: rgb(179, 205, 219);
+}
+.icon-river:before {
+  content: "\e9a1";
+  color: #22739b;
+}
+.icon-room:before {
+  content: "\e9a2";
+  color: #22739b;
+}
+.icon-security-Camera:before {
+  content: "\e9a3";
+  color: #22739b;
+}
+.icon-spacious-rooms:before {
+  content: "\e9a4";
+  color: #22739b;
+}
+.icon-twitter:before {
+  content: "\e9a5";
+  color: #22739b;
+}
+.icon-Volleyball:before {
+  content: "\e9a6";
+  color: #22739b;
+}
+.icon-Waterfall:before {
+  content: "\e9a7";
+  color: #22739b;
+}
+.icon-youtube:before {
+  content: "\e9a8";
+  color: #22739b;
+}

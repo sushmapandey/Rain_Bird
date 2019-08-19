@@ -1,0 +1,151 @@
+
+
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  background-color: $gray-100;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color:#666;
+  .container{
+    display: flex;
+    flex-direction: column;
+    @include media-breakpoint-up(sm){
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+    }
+    @include media-breakpoint-up(lg){
+      align-items: flex-end;;
+    }
+    @at-root .col{
+      font-size: 15px;
+      margin-bottom: 30px;
+      @include media-breakpoint-up(sm){
+        width: 50%;
+        
+      }
+      @include media-breakpoint-up(lg){
+        width: 30%;
+        margin-bottom: unset;
+      }
+      @include media-breakpoint-up(xl){
+        width: 330px;
+      }
+      h2{
+        max-width: 220px;
+      }
+      ul{
+        padding: 0;
+        margin: 0;
+        li{
+          list-style: none;
+          a{
+            color: #666;
+            &:hover{
+              color: $orange;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      @at-root .footer-menu-link{
+        display: flex;
+        flex-direction: column;
+        line-height: 2.33;
+        @media(min-width:400px){
+          flex-direction:row;
+          // justify-content: space-between;
+        }
+        @include media-breakpoint-up(sm){
+          justify-content: space-between;
+        }
+        ul{
+          margin-right: 30px;
+        @include media-breakpoint-up(sm){
+          margin-right: unset;
+        }
+
+          li{
+            a{
+              color: #666;
+            }
+          }
+        }
+      }
+      @at-root .social-media{
+        ul{
+          display: flex;
+          li{
+            margin-right: 20px;
+            a{
+              font-size: 1.18rem;
+              &:hover{
+              text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.social-section{
+  line-height: 1.73;
+
+  @include media-breakpoint-up(sm){
+    width: 100%;
+  }
+  @include media-breakpoint-up(lg){
+    width: 33%;
+  }
+  @include media-breakpoint-up(xl){
+    width: 320px;
+  }
+  ul{
+    margin-bottom: 0;
+  }
+  .btn{
+    color:$white;
+    margin-left: 15px;
+    @include media-breakpoint-only(lg){
+      margin-left: 10px;
+    }
+    &:hover{
+      color:$white;
+    }
+  }
+}
+
+.booking{
+  font-size: 18px;
+}
+
+
+
+
+/*=====================================
+ =            footer bottom            =
+=====================================*/
+
+.bottom-footer{
+	background-image: linear-gradient(to bottom, #22739b, #113a4e);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  .container{
+		color:$white;
+		text-align: center;
+		font-size: 15px;
+		p:last-child{
+			margin-bottom: 0;
+		}
+		a{
+			color: $white;
+			font-weight: $font-weight-bold;
+		}
+    
+  }
+}
+
+/*=====  End of footer bottom  ======*/

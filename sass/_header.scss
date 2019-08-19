@@ -1,0 +1,182 @@
+.site-header{
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	height: 95px;
+	transition: .4s ease-out;
+	@include media-breakpoint-up(sm){
+		height: 120px;
+	}
+	ul{
+		padding: 0;
+		margin: 0;
+	}
+}
+.site-header.sticky {
+  position: fixed;
+ background-color: $white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  // -webkit-box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+  // -moz-box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+  // box-shadow: -1px 7px 4px -4px rgba(198,198,204,0.78);
+
+}
+.site-header .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: relative;
+
+	.site-title{
+		display: block;
+		max-width: 220px;
+		width: 160px;
+		@include media-breakpoint-up(sm){
+			width: 220px;
+		}
+		@include media-breakpoint-only(lg){
+			width: 190px;
+		}
+
+	}
+	.right-menu{
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		@include media-breakpoint-up(lg){
+			flex-direction: column;
+		}
+
+		.top-menu{
+			margin-right: 20px;
+			@include media-breakpoint-up(lg){
+				margin: unset;
+			}
+			ul{
+				li{
+					padding: 0 0 0 17px;
+
+					a{
+						display: inline-block;
+						span{
+							display: none;
+							@include media-breakpoint-up(lg){
+								display: inline-block;
+							}
+						}
+					}
+				}
+			}
+		}
+		.rb-main-menu{
+			margin-top: 20px;
+			display: flex;
+			align-items: center;
+			@include media-breakpoint-down(md){
+        position: absolute;
+        background-color: $primary;
+        padding: 25px;
+        top: 75px;
+        display: none;
+        flex-direction: column;
+        z-index: 2;
+        right: 0;
+        width: 300px;
+        }
+        @include media-breakpoint-up(lg){
+          display: flex !important;
+        }
+			ul{
+				li{
+					padding: 0 0 0 16px;
+					@include media-breakpoint-down(md){
+						float: unset;
+						padding: 10px;
+					}
+					@include media-breakpoint-up(xl){
+						padding-left: 30px;
+					}
+					a{
+						display: inline-block;
+						font-size: 15px;
+						font-weight: $font-weight-bold;
+						@include media-breakpoint-down(md){
+							color: $white;
+						}
+						&:hover{
+							color: $orange;
+						}
+					}
+				}
+			}
+			.btn{
+				// padding: 9px 21px;
+				@include media-breakpoint-up(lg){
+					margin-left: 15px;
+				}
+				@include media-breakpoint-up(xl){
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+} 
+
+.rb-main-menu{
+	.current-menu-item a,
+   li:hover a{
+		 color: $orange;
+	 }
+}
+
+// hamburger menu
+.ham{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+	margin-top: 20px;
+	@include media-breakpoint-up(lg){
+		display: none;
+	}
+  span{
+    width: 25px;
+    height: 3px;
+    margin:auto;
+    background-color: $primary;
+    display: block;
+    position: absolute;
+    left: 0;
+    transition:all 250ms ease;
+    &:nth-child(2){
+      top: 9px;
+    }
+    &:last-child{
+      bottom: 0;
+    }
+  }
+}
+
+.rb-close{
+  span{
+    &:first-child{
+      transform:rotate(45deg);
+      top:13px;
+    }
+    &:nth-child(2){
+      width:20px;
+      opacity:0;
+      left:-20px;
+    }
+    &:last-child{
+      transform:rotate(-45deg);
+      top:9px;
+      
+    }
+  }
+}
