@@ -1,3 +1,5 @@
+demo link - https://www.rainbirdhomestay.in/
+
 # Gutenberg theme
 This theme is designed to showcase what Gutenberg can do with regards to themes. It is intended as a work in progress, at least until v1 of the new editor (and maybe beyond).
 
